@@ -11,7 +11,7 @@ from azure.iot.device.aio import IoTHubDeviceClient
 
 async def main():
     # Fetch the connection string from an environment variable
-    conn_str = "<your_device_connection_string>"
+    conn_str = "HostName=ThermostatIoTHub.azure-devices.net;DeviceId=AmnaRaspberryPi;SharedAccessKey=kbq+eCViG4X4w7bL1y+BpSfo4irnV1GGr/rcJEGtzsw="
 
     # Create instance of the device client using the connection string
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
