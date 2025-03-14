@@ -49,7 +49,7 @@ async def send_recurring_telemetry(device_client):
 
 def main():
     # The connection string for a device should never be stored in code. For the sake of simplicity we're using an environment variable here.
-    conn_str = "HostName=ThermostatIoTHub.azure-devices.net;DeviceId=AmnaRaspberryPi;SharedAccessKey=agKNjaY81aelq76ASlPySNXaxia83i0/ubqoLEgbSBk="
+    conn_str = "HostName=ThermostatIoTHub.azure-devices.net;DeviceId=AmnaRaspberryPi;SharedAccessKey=kbq+eCViG4X4w7bL1y+BpSfo4irnV1GGr/rcJEGtzsw="
     # The client object is used to interact with your Azure IoT hub.
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
 
